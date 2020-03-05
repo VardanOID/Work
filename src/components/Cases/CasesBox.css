@@ -1,0 +1,74 @@
+/* .cases-box-layouts {
+  display: flex;
+  margin: 50px;
+} */
+/* .cases-box-layouts:hover {
+  background-color:#FAFAFA;
+  box-shadow: 5px 10px 0 20px #FAFAFA, 5px -10px 0 20px #FAFAFA,
+    5px 10px 10px 25px rgba(0, 0, 0, 0.1),
+    5px -10px 10px 25px rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 100%;
+    transition-duration: .35s;
+    transition-property: background-color,box-shadow;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+} */
+.cases-box {
+  display: flex;
+}
+.case-box-info {
+}
+.customer-cases-box-info {
+}
+.customer-cases-box-container {
+  text-align: left;
+}
+.cases-logo {
+  font-size: 30px;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "SFUITextRegular";
+}
+
+#data {
+  /* width: 100px; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* font-family: "SFUITextRegular"; */
+  width: auto;
+}
+
+#data:hover {
+  /* overflow: visible;  */
+  white-space: normal;
+  width: auto;
+  position: absolute;
+  /* background-color:#FFF; */
+  /* background-color: transparent; */
+  background-color: white;
+  /* font-size: 17px; */
+  line-height: 24px;
+  font-family: "SFUITextRegular";
+  font-weight: normal;
+  font-style: normal;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  /* webki-box-shadow: '9px 6px 19px -6px rgba(0,0,0,0.75);';
+  moz-box-shadow: '9px 6px 19px -6px rgba(0,0,0,0.75);'; */
+  box-shadow: 9px 6px 19px -6px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+  /* -webkit-transform: scale(20); */
+  transform: scale(1.5);
+  /* -webkit-transform-origin: 0% 50%; */
+  transform-origin: 0% 50%;
+  /* opacity: 1; */
+  cursor: pointer;
+  z-index: 1;
+}
+#data:hover + div {
+  margin-top: 20px;
+}

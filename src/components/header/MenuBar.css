@@ -1,0 +1,87 @@
+/* #left-menu{
+    border:1px solid red;
+    position:absolute;
+color:red;
+top:75px;
+  height: 900%;
+  width: 20%;
+  left:-20%;
+    
+} */
+.menu-logo{
+   font-size: 25px;
+   outline: none !important;
+   border: none !important;
+}
+.menu-logo:hover{
+    font-size: 25px;
+    outline: none !important;
+    border: none !important;
+
+ }
+.left-menu-logo{
+margin-top: 20px;
+margin-left: 30%;
+width: 30%;
+
+}
+
+/*................*/
+.menu-icon{
+  /* margin-top: 20px;
+  margin-left: 30%;
+  width: 30%; */
+}
+#sub-menu{
+  -webkit-box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  -moz-box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  position: absolute;
+  left: -420px;
+  top: 0;
+  width: 75%;
+  height: 100vh;
+background-color:#f2f2f2;
+}
+
+.left-menu-items{
+  color: #221f1f;
+  cursor: pointer;
+  font-size: 1.6rem;
+  line-height: 2em;
+  font-weight: 300;
+}
+.left-menu-items:hover{
+  color: #B11F24
+ 
+}
+
+.left-menu-items-box{
+  padding: 117px  57px 30px;
+}
+
+.close-icon{
+  cursor: pointer;
+  color: #221f1f;
+  font-size: 2em;
+  
+}
+.close-icon:hover{
+  transition: 1s;
+  color:#B11F24
+}
+
+.MuiSvgIcon-root{
+  font-size: 40px !important;
+  cursor: pointer;
+}
+
+.MuiSvgIcon-root:hover{
+  transition: 1s;
+  color:#B11F24
+
+}
+
+.logo-left-menu{
+/* padding-top: 100%; */
+}

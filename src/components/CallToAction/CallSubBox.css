@@ -1,0 +1,46 @@
+.call-sub-box-box{
+    /* border:2px solid blue; */
+    margin-top: -40px;
+    margin-left: 200px;
+    padding: 97px 106px 96px ;
+    position: absolute;
+    box-shadow: 0 0 45px rgba(0,0,0,.35);
+    background-color: #fff;
+    font-family: "Nunito Sans";
+    font-size: 34px;
+    text-align: center;
+}
+
+.call-title{
+   
+    color: #393939;
+   
+  
+}
+
+.call-button{
+    /* border-radius: 25px;
+    bottom: 1px;
+    left: 1px;
+    overflow: hidden;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    z-index: 1;
+    text-align: center; */
+
+    border-radius: 25px;
+    color: #393939;
+    cursor: pointer;
+    display: inline-block;
+   
+    font-size: 13px;
+    line-height: 23px;
+    padding: 12px 33px 11px;
+    position: relative;
+ border: 2px solid black;
+ font-weight: bolder;
+margin-left: 5px;
+margin-top: 20px;
+background-color: white;
+}

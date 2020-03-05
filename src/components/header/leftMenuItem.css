@@ -1,0 +1,17 @@
+.item{
+  text-align: center;
+  color: #56504e;
+  margin-top: 15%;
+  font-size: 24px;
+  font-weight: bolder;
+  transition: 0.5s;
+
+ 
+}
+.item:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  color: #de0000;
+
+}
+

@@ -1,0 +1,46 @@
+.buttonUp-box {
+  width: 50px;
+  height: 50px;
+  /* border:2px solid red; */
+  /* border-radius: 100%; */
+  position: fixed;
+  left: 95%;
+  z-index: 20;
+ 
+}
+
+.container-for-arrow1 {
+  /* position: absolute; */
+  /* bottom: 100px; */
+  /* left: 98%; */
+  /* width: 100%; */
+  /* text-align: center; */
+  /* background: url(https://cdn2.hubspot.net/hubfs/439788/intechnic_2017/assets/images/landing/arrow-icons.png) ; */
+  /* display: block; */
+  /* background-position: -40px 0px; */
+  background: url(https://cdn2.hubspot.net/hubfs/439788/intechnic_2017/assets/images/landing/arrow-icons.png)
+    0 -80px no-repeat;
+margin-left: 15px;
+  width: 13px;
+  height: 40px;
+  /* color: white; */
+  filter:  invert(50%);
+  /* zoom:1; */
+  /* background-color: tomato; */
+  color:red;
+  /* background-color: transparent; */
+  /* mix-blend-mode: difference; */
+  /* font-size: 200px; */
+}
+.arrow-div1 {
+  cursor: pointer;
+}
+
+.scroll-name-prop1 {
+  text-decoration: none;
+  color: white;
+}
+.scroll-name-prop:hover1 {
+  text-decoration: none;
+  color: white;
+}

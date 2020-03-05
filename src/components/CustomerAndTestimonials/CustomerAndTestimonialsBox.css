@@ -1,0 +1,18 @@
+.customer-and-testimonials-box {
+  background-color: #f6f5f5;
+  opacity: 0.8;
+  /* padding: 100px 0px 0px; */
+  padding-top: 100px ;
+}
+.customers {
+  text-align: center;
+  margin: 0;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #ff1e3b; 
+   font-size: calc(18px + .8vw); 
+   line-height: calc(24px + 1.2vw);
+  color: #999;
+  font-weight: 300;
+  font-family: "Nunito Sans";
+}

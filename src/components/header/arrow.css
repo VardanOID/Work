@@ -1,0 +1,41 @@
+
+
+.container-for-arrow{
+    position: absolute;
+    bottom: 100px;
+    left: 98%;
+    /* width: 100%; */
+    /* text-align: center; */
+    background: url(https://cdn2.hubspot.net/hubfs/439788/intechnic_2017/assets/images/landing/arrow-icons.png) ;
+    /* display: block; */
+    background-position: 0 -40px;
+    width: 13px;
+    height: 40px;
+   color:white;
+
+}
+.arrow-div{
+cursor: pointer;
+
+}
+
+
+.nav-scroll__link__text{
+    white-space: nowrap;
+    position: absolute;
+    left: 98.3%;
+    bottom: 145px;
+    transform-origin: 0 50%;
+    transform: rotate(-90deg);
+
+ font-weight: bold;
+}
+
+.scroll-name-prop{
+    text-decoration: none;
+    color:white;
+}
+.scroll-name-prop:hover{
+    text-decoration: none;
+    color:white;
+}
