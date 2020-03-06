@@ -5,7 +5,7 @@ import "./footerNavigation.css";
 function FooterNavigation() {
   
 
-  return <div className="footer-navigation-box">
+  return <div className="footer-navigation-box"  >
 asas
       
   </div>;

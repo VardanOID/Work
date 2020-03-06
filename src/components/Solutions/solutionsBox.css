@@ -2,3 +2,12 @@
   /* border:2px solid green; */
   /* transition: 12s; */
 }
+.solutions-main-title{
+  color: #d82533;
+  font-size: 5rem;
+  line-height: 1.04444em;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: bold;
+  background-color: #221F1F;
+  padding: 50px;
+}

@@ -10,10 +10,12 @@ import "./kaleidoscope.css";
 function Kaleidoscope() {
   return (
     <div className="kaleidoscope-box">
-      <div className="kaleidoscope-title">We Deliver</div>
+      <div className="kaleidoscope-title">RedKite</div>
+      <span className="kaleidoscope-koleidoscope"> Kaleidoscope</span>
    <KaleidoscopeImgRow1 />
-   <KaleidoscopeImgRow2 />
-   <KaleidoscopeImgRow3 />
+   {/* <KaleidoscopeImgRow1 /> */}
+   {/* <KaleidoscopeImgRow2 /> */}
+   {/* <KaleidoscopeImgRow3 /> */}
      
     </div>
   );

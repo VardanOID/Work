@@ -1,7 +1,7 @@
 .footer{
     /* border:2px solid red; */
     /* display: flex; */
-   background-color: #F5F5F5;
+   background-color: #000;
 }
 
 .footer-icons-div{
@@ -12,6 +12,3 @@ padding: 20px 46%;
 
 }
 
-.footer-icons-div:hover{
-    background-color: white;
-}

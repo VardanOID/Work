@@ -6,7 +6,7 @@ import SolutionsSectionsPic1 from "./SolutionsSectionsPic1";
 function SolutionsBox() {
   return (
     <div className="solutions-box">
-    <div>Solutions</div>
+    <div className="solutions-main-title">Solutions</div>
       <SolutionsSectionsPic />
       {/* sd */}
       <SolutionsSectionsPic1 />

@@ -30,7 +30,7 @@
 .main-title {
   font-weight: bold;
   font-size: 20px;
-  font-family: "SFUITextRegular";
+  /* font-family: "SFUITextRegular"; */
 }
 
 #data {
@@ -40,6 +40,7 @@
   text-overflow: ellipsis;
   /* font-family: "SFUITextRegular"; */
   width: auto;
+  transition: 0.2s;
 }
 
 #data:hover {
@@ -47,28 +48,27 @@
   white-space: normal;
   width: auto;
   position: absolute;
-  /* background-color:#FFF; */
-  /* background-color: transparent; */
-  background-color: white;
-  /* font-size: 17px; */
-  line-height: 24px;
-  font-family: "SFUITextRegular";
-  font-weight: normal;
-  font-style: normal;
-  /* border: 1px solid red; */
+/* text-align: justify; */
+
+ 
+  background-color: rgb(241, 240, 240);
+  
+  /* font-family: "SFUITextRegular"; */
+ 
   border-radius: 10px;
-  /* webki-box-shadow: '9px 6px 19px -6px rgba(0,0,0,0.75);';
-  moz-box-shadow: '9px 6px 19px -6px rgba(0,0,0,0.75);'; */
+  /* -webkit-box-shadow: 2px 5px 28px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 5px 28px 7px rgba(0,0,0,0.75);
+  box-shadow: 2px 5px 28px 7px rgba(0,0,0,0.75); */
   box-shadow: 9px 6px 19px -6px rgba(0, 0, 0, 0.75);
   transition: 1s;
-  /* -webkit-transform: scale(20); */
-  transform: scale(1.5);
-  /* -webkit-transform-origin: 0% 50%; */
-  transform-origin: 0% 50%;
-  /* opacity: 1; */
+ 
+  transform: scale(1.1);
+  -webkit-transform-origin:80% 100%; 
+  transform-origin: 80% 100%;
+  
   cursor: pointer;
   z-index: 1;
 }
 #data:hover + div {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }

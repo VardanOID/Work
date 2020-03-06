@@ -3,7 +3,7 @@
     display: flex;
     color: red;
     /* border:2px solid blue; */
-    
+    overflow: hidden; 
 }
 
 
@@ -11,59 +11,162 @@
     display: flex;
     color: red;
     /* padding: 0rem!important; */
-    /* border:2px solid red; */
+    border:2px solid red;
 }
 .p-1{
-    /* border:2px solid yellow; */
+    border:2px solid yellow;
 
  
 }
 
 .kal-img{
-    /* width: 100vh; */
+    width: 70vh;
     /* width :100%; */
     /* height: 100vh; */
     transition: 1s;
-
+    filter: grayscale(100%);
+    /* border:2px solid red; */
 }
 .kal-img:hover{
     transition: 1s;
-    transform: scale(1.1);
-   
+    /* transform: scale(1.1); */
+    filter: grayscale(0);
+
+}
+.pictureone:hover{
+  /* transition: 1s; */
+  /* border:2px solid white; */
+  /* filter: blur(1.2px) */
 }
 
 .kal-img-small1{
   
- width: 50vh;
+ /* width: 50vh; */
+}
+.black:hover{
+  /* border: 1px solid red;; */
+}
+/*................*/
+.small-img-container{
+  display: flex;
+  
+}
+.figure{
+  
+width: 32.7vh;
+height: 30vh;
+/* position: absolute; */
+  /* border:2px solid red; */
+  /* background-color: #fff; */
+  font-size: 5rem;
+    /* line-height: 1.04444em; */
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+}
+.career{
+color:black;
+background-color: white;
+transition: 2s;
+cursor: pointer;
+margin-left: 20%;
+background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
+background-size: cover;
+opacity: 0.7;
+
+}
+.gradient-career{
+
+background: rgb(255,255,255);
+background: linear-gradient(146deg, rgba(255,255,255,1) 4%, rgba(255,255,255,0) 44%);
+}
+.gradient-career2{
+z-index: 10;
+height: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(302deg, rgba(255,255,255,1) 13%, rgba(255,255,255,0) 55%);
+  }
+ 
+.career:hover{
+  /* color:white; */
+/* background-color: black; */
+/* transition: 1s; */
+}
+.news{
+ 
+color:white;
+transition: 2s;
+}
+.news:hover{
+  color:black;
+background-color: white;
+transition: 1s;
+cursor: pointer;
 }
 
-/*................*/
+.wwa{
+  position: absolute;
+  color:white;
+  z-index: 1;
+  font-size: 3rem;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+    padding: 50px;
+}
+.wwa span{
+  color: #d82533;
+}
+.start-journey{
+  position: absolute;
+  color:white;
+  z-index: 1;
+  font-size: 3rem;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+    /* margin: 40px; */
+    /* text-align: center; */
+}
+.start-journey span{
+  color: #d82533;
+}
 
-.main{
-    /* display: flex; */
-    /* flex-flow: row wrap; */
-    /* width: 100%; */
-    /* justify-content: center; */
+.figure1{
+  
+  width: 32.7vh;
+  height: 30vh;
+  /* position: absolute; */
+    /* border:2px solid red; */
+    /* background-color: #fff; */
+    font-size: 5rem;
+      /* line-height: 1.04444em; */
+      font-family: 'Raleway', sans-serif !important;
+      font-weight: bold;
   }
-  .column{
-    /* flex-basis: 1 10px; */
-    /* width: calc(100% / 3 - 10px); */
-    /* margin: 5px; */
-    /* padding: 0; */
+  .career1{
+  color:black;
+  background-color: white;
+  transition: 2s;
+  cursor: pointer;
+  
   }
-  .figure {
-      /* position: relative;  */
-    /* overflow: hidden; */
-    /* margin: 0; */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* filter: grayscale(.8); */
+  .career1:hover{
+    color:white;
+  background-color: black;
+  transition: 1s;
   }
-  .figure img{
-    /* width: 100%; */
-    /* height: 100%; */
+  .news1{
+    margin-top:9%;
+  color:white;
+  transition: 2s;
   }
-  .figure::before {
+  .news1:hover{
+    color:black;
+  background-color: white;
+  transition: 1s;
+  cursor: pointer;
+  }
+
+  
+  .figure1::before {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -77,10 +180,11 @@
       transform: translate(-50%, -50%);
       /* opacity: 0; */
   }
-  .figure:hover{
+  
+  .figure1:hover{
     animation: bloom ease-in-out .75s forwards;
   }
-  .figure:hover::before {
+  .figure1:hover::before {
       animation: circle .75s;
   }
   @keyframes bloom {
@@ -96,13 +200,13 @@
   }
   @keyframes circle {
       0% {
-          /* opacity: .5; */
+          opacity: .5;
       /* background: rgba(213,156,34,.2); */
       
       }
       40% {
           /* opacity: 1; */
-      background: rgba(213,34,160,.2);
+      background: white
       }
       100% {
           width: 100%;
@@ -115,31 +219,34 @@
   /*..........First big img.........*/
 
   .img-hover-zoom {
-   
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    /* filter: grayscale(0); */
+    overflow: hidden; 
+    /* [1.2] Hide the overflowing of child elements */
   }
-  
+
   /* [2] Transition property for smooth transformation of images */
-  .img-hover-zoom img {
+   img {
     transition: transform .5s ease;
+    overflow: hidden; 
   }
   
   /* [3] Finally, transforming the image when container gets hovered */
-  .img-hover-zoom:hover img {
-    transform: scale(1.5);
+  .img-hover-zoom img:hover {
+    transform: scale(1.2);
+    overflow: hidden; 
   }
 
 
 /*.......second big img......*/
   .img-hover-zoom--colorize img {
-    transition: transform .5s, filter 1.5s ease-in-out;
-    filter: grayscale(100%);
+    /* transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%); */
   }
   
   /* The Transformation */
   .img-hover-zoom--colorize:hover img {
-    filter: grayscale(0);
-    transform: scale(1.1);
+    /* filter: grayscale(0);
+    transform: scale(1.1); */
   }
 
   /*........last big img.......*/
@@ -151,3 +258,22 @@ h1{
   z-index: 1;
 
 } 
+
+
+
+
+
+  
+@media only screen and (max-width: 1705px) {
+  .figure {
+   font-size: 3em;
+    
+  }
+}
+
+@media only screen and (max-width: 1705px) {
+  .figure1 {
+   font-size: 3em;
+    
+  }
+}

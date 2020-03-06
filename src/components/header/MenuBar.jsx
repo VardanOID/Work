@@ -1,12 +1,8 @@
 import React from "react";
 import "./MenuBar.css";
-import LeftMenuItem from "./LeftMenuItem";
-import Logo from "../../picture/logo.png";
-import { makeStyles } from "@material-ui/core/styles";
-import Drawer from "@material-ui/core/Drawer";
-import Button from "@material-ui/core/Button";
+
 import MenuIcon from "@material-ui/icons/Menu";
-import styled from "styled-components";
+
 import CloseIcon from '@material-ui/icons/Close';
 import LogoLeftMenu from "../../picture/logo2.png";
 
@@ -45,7 +41,7 @@ export default function MenuBar() {
           <div className="left-menu-items">TECHNOLOGY</div>
           <div className="left-menu-items">WHO WE ARE</div>
           <div className="left-menu-items">CONTACT</div>
-          <div className="left-menu-items logo-left-menu"><img src={LogoLeftMenu} /></div>
+          <div className="left-menu-items"><img src={LogoLeftMenu}  className="logo-left-menu"/></div>
         </div>
       </div>
     </div>
