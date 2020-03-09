@@ -33,7 +33,7 @@
 
 .cases-div{
     /* width: 85vw; */
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 50px ;
     /* display: grid; */
     /* grid-template-columns: auto auto auto auto; */
@@ -44,4 +44,14 @@
 }
 .cases-first-row{
     margin-bottom: 7%;
+}
+
+.customer-cases-title{
+    margin-left:50px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+    /* color: #d82533; */
+    font-size: 3rem;
+    line-height: 1.04444em;
 }

@@ -8,6 +8,7 @@ import HeaderMenu from "./HeaderMenu";
 import MenuBar from "./MenuBar";
 import Arrow from "./Arrow";
 import ReactPlayer from "react-player";
+import { rgbToHex } from "@material-ui/core";
 
 // function Header() {
 function Header() {
@@ -17,9 +18,6 @@ function Header() {
 
   let video = document.getElementById("myVideo");
 
-  function enableMute() {
-    video.muted = !video.muted;
-  }
   let style = {
     width: "100%",
     height: "90vh",
@@ -29,63 +27,42 @@ function Header() {
   let gradient = {
     position: "absolute",
     width: "100%",
-    height: "100vh",
+    height: "90vh",
 
-    // background: "rgb(91,200,237)",
-    // background: "linear-gradient(156deg, rgba(91,200,237,0.5158438375350141) 16%, rgba(247,128,0,0) 42%)"
-
-    // background: "rgb(91,200,237)",
-    // background: "linear-gradient(156deg, rgba(91,200,237,0.53) 20%, rgba(255,255,255,0) 56%)"
-    background: "rgb(91,200,237)",
-    background:
-      "linear-gradient(146deg, rgba(91,200,237,1) 4%, rgba(255,255,255,0) 28%)"
+    // background: "rgb(6,3,213)",
+    // background:
+    //   "linear-gradient(156deg, rgba(3,81,213,0.77) 13%, rgba(255,255,255,0.07886904761904767) 50%)"
+    background: 'rgb(216,37,51)',
+background: 'linear-gradient(304deg, rgba(216,37,51,1) 0%, rgba(255,255,255,0) 50%)'
   };
   let gradient2 = {
     position: "absolute",
     width: "100%",
     height: "90vh",
 
-    background: "rgb(145,237,91)",
-    background:
-      "linear-gradient(302deg, rgba(145,237,91,1) 5%, rgba(255,255,255,0) 21%)"
+    // background: "rgb(24,117,39)",
+    background:'rgb(0,0,0)',
+    // background:
+    //   "linear-gradient(302deg, rgba(24,117,39,0.7707457983193278) 13%, rgba(255,255,255,0.07886904761904767) 50%)"
+    background: 'linear-gradient(156deg, rgba(0,0,0,1) 4%, rgba(255,255,255,0) 50%)'
   };
-  // let vid = document.getElementById("myVideo");
 
-  // function getVolume() { 
-  //   alert(vid.muted);
-  // } 
-    
-  // function setHalfVolume() { 
-  //   vid.muted = true;
-  // } 
-    
-  // function setFullVolume() { 
-  //   vid.muted = false;
-  // } 
-  // let azs={
-  //   position: 'absolute',
-  //   zIndex:"100000000000"
-  // }
   return (
     <div>
-    {/* <div style={azs}><button onClick={getVolume} type="button">What is the volume?</button>
-<button onClick={setHalfVolume} type="button">Set volume to 0.2</button>
-<button onClick={setFullVolume} type="button">Set volume to 1.0</button> </div> */}
       <div style={gradient}></div>
-      
+
       <div style={gradient2}></div>
 
       <HeaderMenu />
 
-    <div class="video-container"  > 
-         <video style={style} autoplay="true" loop="true" controls muted  >
-          <source src={Video} className="video-option"   ></source>
-        </video> 
-       {/* <ReactPlayer url={Video} playing loop muted="false"  id="myVideo"/> */}
-      </div> 
+      <div class="video-container">
+        <video style={style} autoplay="true" loop="true" muted>
+          <source src={Video} className="video-option"></source>
+        </video>
+        
+      </div>
 
       <Arrow />
-     
     </div>
   );
 }

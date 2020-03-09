@@ -102,7 +102,7 @@ function KaleidoscopeImgRow1() {
                 alt="img06"
                 className="kal-img-small"
               /> */}
-          <span data-aos="zoom-in"> News</span>
+          <span> News</span>
         </div>
       </div>
       <div className="small-img-container">
@@ -110,7 +110,7 @@ function KaleidoscopeImgRow1() {
           <div className="gradient-career">
             <div className="figure career">
               <div className="gradient-career2">
-                <span id="career" data-aos="zoom-in">
+                <span id="career" >
                   Careers
                 </span>
               </div>

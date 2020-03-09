@@ -8,6 +8,7 @@ import Grid from "@material-ui/core/Grid";
 function Cases() {
   return (
     <div className="cases-box cases">
+    <h1 className="customer-cases-title" data-aos="zoom-in">Customer Cases</h1>
       <img src={Meeting} className="img_back" />
       <div className="cases-div">
         <Grid>

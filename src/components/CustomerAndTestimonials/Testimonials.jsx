@@ -41,7 +41,7 @@ export default class Testimonials extends React.Component {
 
       //         </Wrapper>
       <div className="slider-box">
-        <div className="testimonialas"><b>Testimonials</b></div>
+        <div className="testimonialas" data-aos="fade-right"><b>Testimonials</b></div>
         
         <div className="quote-and-slide">
         <div className="quote"></div>

@@ -2,11 +2,11 @@ import React from "react";
 import "./footerNavigation.css";
 
 
-function FooterNavigation() {
+function FooterNavigation(props) {
   
 
   return <div className="footer-navigation-box"  >
-asas
+<div>{props.footerItems}</div>
       
   </div>;
 }

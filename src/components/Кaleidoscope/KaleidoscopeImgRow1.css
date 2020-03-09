@@ -31,7 +31,7 @@
     transition: 1s;
     /* transform: scale(1.1); */
     filter: grayscale(0);
-
+    cursor: pointer;
 }
 .pictureone:hover{
   /* transition: 1s; */
@@ -69,8 +69,8 @@ background-color: white;
 transition: 2s;
 cursor: pointer;
 margin-left: 20%;
-background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
-background-size: cover;
+/* background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg); */
+/* background-size: cover; */
 opacity: 0.7;
 
 }
@@ -92,7 +92,7 @@ height: 100%;
 /* transition: 1s; */
 }
 .news{
- 
+
 color:white;
 transition: 2s;
 }
@@ -101,6 +101,7 @@ transition: 2s;
 background-color: white;
 transition: 1s;
 cursor: pointer;
+
 }
 
 .wwa{
@@ -111,6 +112,7 @@ cursor: pointer;
     font-family: 'Raleway', sans-serif !important;
     font-weight: bold;
     padding: 50px;
+    cursor: pointer;
 }
 .wwa span{
   color: #d82533;
@@ -122,6 +124,8 @@ cursor: pointer;
   font-size: 3rem;
     font-family: 'Raleway', sans-serif !important;
     font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
     /* margin: 40px; */
     /* text-align: center; */
 }
@@ -154,8 +158,10 @@ cursor: pointer;
   transition: 1s;
   }
   .news1{
+    background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
+    background-size: cover;
     margin-top:9%;
-  color:white;
+  color:black;
   transition: 2s;
   }
   .news1:hover{
@@ -206,7 +212,7 @@ cursor: pointer;
       }
       40% {
           /* opacity: 1; */
-      background: white
+      /* background: white */
       }
       100% {
           width: 100%;
@@ -275,5 +281,8 @@ h1{
   .figure1 {
    font-size: 3em;
     
+  }
+  .start-journey{
+    padding: 5px;
   }
 }
