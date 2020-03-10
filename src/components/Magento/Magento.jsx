@@ -3,6 +3,7 @@ import "./magento.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
 import MagentoBox from "./MagentoBox";
+import Buttons from "./Buttons";
 
 function Magento() {
   return (
@@ -10,10 +11,12 @@ function Magento() {
       <Grid lg={12}>
         <Row>
           <Col lg={6}>
-            <div><MagentoBox/></div>
+            <div>
+              <MagentoBox />
+            </div>
           </Col>
           <Col lg={6}>
-            <div>Buttons</div>
+            <div><Buttons/></div>
           </Col>
         </Row>
       </Grid>
