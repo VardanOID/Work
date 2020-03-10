@@ -47,10 +47,11 @@ export default function MenuBar() {
       </div> */}
       <div id="sidenav">
       <CloseIcon onClick={closeSubMenu} className="close-icon" />
-  <a href="#about" className="left-menu-items">SOLUTIONS</a>
-  <a href="#services" className="left-menu-items">CUSTOMERS</a>
+  <a href="#solutions" className="left-menu-items">SOLUTIONS</a>
+  <a href="#customers" className="left-menu-items">CUSTOMERS</a>
   <a href="#clients" className="left-menu-items">ABOUT US</a>
   <a href="#contact" className="left-menu-items">CONTACT</a>
+  
   <div className="left-menu-items"><img src={LogoLeftMenu}  className="logo-left-menu"/></div>
 </div>
 

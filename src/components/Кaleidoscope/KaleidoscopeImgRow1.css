@@ -116,6 +116,7 @@ cursor: pointer;
 }
 .wwa span{
   color: #d82533;
+
 }
 .start-journey{
   position: absolute;
@@ -157,6 +158,7 @@ cursor: pointer;
   background-color: black;
   transition: 1s;
   }
+  
   .news1{
    
     background-image: url(https://lh3.googleusercontent.com/proxy/15viSbwqdRTtMUhkHihBJpFpU1g4jZxtf6hcbdrMrO4hd2unNkDqK1AyLP-Tx4PMCwbKIMeagj8p4NCtQOaDibEyHIveyQ);
@@ -281,14 +283,18 @@ h1{
    font-size: 3em;
     
   }
+  .figure1 {
+    font-size: 3em;
+     
+   }
+   
+   .start-journey{
+     padding: 5px;
+     font-size: 2em;
+   }
+   .wwa{
+     
+    font-size: 2em;
+   }
 }
 
-@media only screen and (max-width: 1705px) {
-  .figure1 {
-   font-size: 3em;
-    
-  }
-  .start-journey{
-    padding: 5px;
-  }
-}

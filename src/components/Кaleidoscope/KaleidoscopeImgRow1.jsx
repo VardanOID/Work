@@ -13,6 +13,7 @@ function KaleidoscopeImgRow1() {
     h1.style.transition = "1s";
     question.style.color = "white";
     question.style.transition = "1s";
+    question.style.fontSize="1.5em"
   }
   function eventEnd3() {
     let h1 = document.getElementById("wwa");
@@ -21,6 +22,7 @@ function KaleidoscopeImgRow1() {
     h1.style.transition = "1s";
     h1.style.color = "white";
     question.style.color = "#d82533";
+    question.style.fontSize="1em"
   }
   function eventStart4() {
     let h1 = document.getElementById("start-journey");
@@ -125,7 +127,7 @@ function KaleidoscopeImgRow1() {
           <div>
             <div class="pictureone">
             <span className="start-journey" id="start-journey">
-            Start Journey With <br/><span id="start-j-redkite">RedKite</span>
+            Start Your Journey With <br/><span id="start-j-redkite">RedKite</span>
         </span>
               <img
                onMouseEnter={eventStart4}

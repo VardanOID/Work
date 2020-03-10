@@ -6,8 +6,10 @@ import SolutionsSectionsPic1 from "./SolutionsSectionsPic1";
 function SolutionsBox() {
   return (
     <div className="solutions-box">
+       <span id="solutions"></span>
     <div className="solutions-main-title " >
    <div data-aos="fade-right"> Solutions</div>
+
     </div>
       <SolutionsSectionsPic />
       {/* sd */}
