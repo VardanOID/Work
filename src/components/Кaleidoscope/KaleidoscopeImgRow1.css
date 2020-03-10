@@ -158,17 +158,23 @@ cursor: pointer;
   transition: 1s;
   }
   .news1{
-    background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
-    background-size: cover;
+   
+    background-image: url(https://lh3.googleusercontent.com/proxy/15viSbwqdRTtMUhkHihBJpFpU1g4jZxtf6hcbdrMrO4hd2unNkDqK1AyLP-Tx4PMCwbKIMeagj8p4NCtQOaDibEyHIveyQ);
+  background-color: white;
+  background-size: cover;
+  -webkit-transition: background-image 0.5s ease-in-out;
     margin-top:9%;
   color:black;
   transition: 2s;
   }
   .news1:hover{
-    color:black;
-  background-color: white;
-  transition: 1s;
+ 
+    background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
+      background-size: cover;
+  transition: 2s;
   cursor: pointer;
+  -webkit-transition: background-image 0.5s ease-in-out;
+  
   }
 
   

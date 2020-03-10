@@ -1,0 +1,14 @@
+.magento-box-container{
+    border:2px solid blue;
+    margin: -40px 20% 0px;
+    height: 40vh;
+background-image: url(../../picture/magento.png);
+filter: grayscale();
+
+}
+
+.magento-box-container:hover{
+    background-size: cover;
+    filter: grayscale(0);
+    transition:1s ;
+}

@@ -87,3 +87,40 @@ background-color:#f2f2f2;
 width: 20vh;
 
 }
+
+
+
+#sidenav {
+  height: 100%;
+  width: 320px;
+  position: fixed;
+  z-index: 20000000000000;
+  top: 0;
+  left: -320px;
+background-color:#f2f2f2;
+/* background-color: transparent; */
+/* opacity: 0.7; */
+  overflow-x: hidden;
+  padding-top: 20px;
+  -webkit-box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  -moz-box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  box-shadow: 13px 0px 14px -10px rgba(0,0,0,0.86);
+  padding: 60px ;
+
+}
+
+#sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  /* margin-top: 10px; */
+/* margin-left: 10%; */
+/* width: 30%; */
+/* padding: 117px  57px 30px; */
+}
+
+#sidenav a:hover {
+  color: #B11F24
+}

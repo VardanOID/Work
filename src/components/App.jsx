@@ -7,6 +7,7 @@ import CallToAction from "../components/CallToAction/CallToAction";
 import SolutionsBox from "../components/Solutions/SolutionsBox";
 import ButtonUp from "../components/ButtonUp/ButtonUp"
 import Footer from "../components/Footer/Footer"
+import Magento from "../components/Magento/Magento"
 import "./app.css";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <span id="top"></span>
       <Header />
       <ButtonUp/>
-      <CallToAction />
+      <Magento />
+      {/* <CallToAction /> */}
       <SolutionsBox />
       <CustomerAndTestimonials />
       <Cases />

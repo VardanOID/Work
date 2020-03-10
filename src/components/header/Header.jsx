@@ -46,7 +46,7 @@ background: 'linear-gradient(304deg, rgba(216,37,51,1) 0%, rgba(255,255,255,0) 5
     //   "linear-gradient(302deg, rgba(24,117,39,0.7707457983193278) 13%, rgba(255,255,255,0.07886904761904767) 50%)"
     background: 'linear-gradient(156deg, rgba(0,0,0,1) 4%, rgba(255,255,255,0) 50%)'
   };
-
+let vid = "https://youtu.be/qwzjXc0k-g4";
   return (
     <div>
       <div style={gradient}></div>

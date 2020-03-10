@@ -24,7 +24,7 @@
   .carreaux_presentation_light1 .shadow_swhow_mini1  {
     background-color: #221F1F;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     top: 0;
     left: 0;
     right: 0;
@@ -38,10 +38,10 @@
   }
   .carreaux_presentation_light1 .deroul_titre1 {
     position: absolute;
-
+padding-top: 5%;
     transition: 2s;
     /* top:6%; */
-    right: -100%;
+    right: -40%;
     color: #ffffff;
   
     /* bg img dnel */
@@ -51,7 +51,7 @@
     /* background-color:#1e4944;  */
     /* background-image: url("../../picture/meeting.jpg"); */
     /* background-size: cover; */
-    right: -5px;
+    right: 10%;
     /* left:auto; */
     
     /* left:-300px; */
@@ -71,9 +71,24 @@
       /* background-color:#1e4944;  */
       /* background-image: url("../../picture/meeting.jpg"); */
       /* background-size: cover; */
-      right: -29%;
+      right: 2%;
       
       /* left:-300px; */
       
+    }
+    .carreaux_presentation_light1:hover .shadow_swhow_mini1 {
+      /* background-color:rgba(16,23,41,0); */
+      /* transition: 12s; */
+    }
+    .carreaux_presentation_light1 .deroul_titre1 {
+      position: absolute;
+  padding-top: 7%;
+      transition: 2s;
+      /* top:6%; */
+      right: -50%;
+      color: #ffffff;
+    
+      /* bg img dnel */
+    
     }
   }

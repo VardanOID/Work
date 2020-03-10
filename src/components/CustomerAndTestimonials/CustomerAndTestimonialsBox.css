@@ -2,7 +2,7 @@
   background-color: #f6f5f5;
   opacity: 0.8;
   /* padding: 100px 0px 0px; */
-  padding-top: 100px ;
+  padding-top: 20px ;
 }
 .customers {
   text-align: center;
@@ -15,4 +15,15 @@
   color: #999;
   font-weight: 300;
   font-family: "Nunito Sans";
+}
+.customers-title{
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: #ff1e3b; 
+   font-size: calc(3em + .8vw); 
+   /* line-height: calc(3em + 1.2vw); */
+  color: #999;
+  /* font-weight: 300; */
+  font-family: "Nunito Sans";
+  padding-left:100px;
 }

@@ -2,21 +2,19 @@ import React from "react";
 import "./SolutionsSectionsPic1.css";
 
 import SolutionsSectionsText1 from "./SolutionsSectionsText1";
-import Meeting1 from "../../picture/meeting.jpg";
+import Sol2 from "../../picture/sol2.png";
 function SolutionsSectionsPic1() {
   return (
     <div class="contener_general1">
       <div class="carreaux_presentation_light1">
         <div class="shadow_swhow_mini1">
           <SolutionsSectionsText1
-            solutionTitle="What is Lorem Ipsum?"
-            solutionDesc=" Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy
-      text ever since the 1500s, when an unknown printer took a galley
-      of type and scrambled it to make a type specimen book."
+            solutionTitle="Web Studio"
+            solutionSubTitle="Entrust Redkite with your web project, be that a stunning website, online store, web-app or any other web-based solution, Redkite has the experience, the skill and the talent to build it."
+            solutionDesc=" A web site is the doorway into your business bedazzle the customer with it upfront and present all the relevant information, metrics and statistics of your business to win them over. Let your website be your sales tool."
           />
           <div class="deroul_titre1">
-            <img src={Meeting1} className="solution-img-hover1" />
+            <img src={Sol2} className="solution-img-hover1" />
           </div>
         </div>
       </div>

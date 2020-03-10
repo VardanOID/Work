@@ -14,8 +14,8 @@
     }
   
     .solutions-text1{
-        /* padding-left: 70%; */
-        padding-right: 70%;
+        padding-left:10%;
+        padding-right: 50%;
         padding-top: 10%;
         width: 100%;
           position: absolute;
@@ -29,5 +29,12 @@
           font-size: 1.5rem;
           
           font-family: 'Raleway', sans-serif !important;
+          font-weight: bold;
+        }
+
+
+        .solutions-title-subtitle{
+          color: #d82533;
+          font-style: italic;
           font-weight: bold;
         }

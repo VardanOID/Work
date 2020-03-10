@@ -1,57 +1,50 @@
 .cases-box{
 
     background-color: #FAFAFA;
+    width: 100%;
+    height: 50%;
 }
 
 .customer-cases-box-info{
     display: flex;
     justify-content: center;
 }
-/* .customer-cases-box-info:first-child{
-    width: 150px;
-}
-.customer-cases-box-info > * {
-    flex: 0 0 auto;
-  } */
+
 .MuiGrid-root {
     width:100%;
 }
-/* .cases::after{
-    background-image: url("https://c0.wallpaperflare.com/preview/811/935/645/adults-analysis-brainstorming-collaboration.jpg");
-    background-size: cover;
 
-} */
-/* img{
-    
-} */
 .img_back{
-    /* position: absolute; */
+
     width: 100%;
     opacity: 0.3;
 
 }
 
 .cases-div{
-    /* width: 85vw; */
+
     margin-top: 10%;
     margin-left: 50px ;
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto auto; */
-    /* grid-gap: 100px; */
+  margin-bottom: 100px;
     opacity: 1;
-    position: absolute;
+    /* position: absolute; */
     font-weight: bolder;
+    
 }
 .cases-first-row{
     margin-bottom: 7%;
 }
 
 .customer-cases-title{
-    margin-left:50px;
-    padding-top: 20px;
+    /* margin-left:50px;
+    padding-top: 20px; */
     font-family: 'Raleway', sans-serif !important;
     font-weight: bold;
     /* color: #d82533; */
     font-size: 3rem;
     line-height: 1.04444em;
+/* margin-left: 35%; */
+
+width: 100%;
+text-align: center;
 }

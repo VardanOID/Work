@@ -12,13 +12,13 @@ import LogoLeftMenu from "../../picture/logo2.png";
 
 export default function MenuBar() {
   function subMenuOpen() {
-    let subMenu = document.getElementById("sub-menu");
+    let subMenu = document.getElementById("sidenav");
     subMenu.style.left = "0";
     subMenu.style.transition = "1s";
   
   }
   function closeSubMenu(){
-    let subMenu = document.getElementById("sub-menu");
+    let subMenu = document.getElementById("sidenav");
     subMenu.style.left = "-420px";
     subMenu.style.transition = "1s";
   }
@@ -27,23 +27,33 @@ export default function MenuBar() {
   return (
     <div>
       
-      <div className="menu-icon" onClick={subMenuOpen} data-aos="zoom-in"  >
+      <div className="menu-icon" 
+      onClick={subMenuOpen} 
+      data-aos="zoom-in"  >
        <MenuIcon />
       </div>
-      <div id="sub-menu">
+      {/* <div id="sub-menu " >
        
-        <div className="left-menu-items-box">
-        {/* <i class="fas fa-times close-icon"  onClick={closeSubMenu}></i> */}
+        <div className="left-menu-items-box ">
         <CloseIcon onClick={closeSubMenu} className="close-icon" />
-          <div className="left-menu-items">HOME</div>
-          <div className="left-menu-items">RECENT WORKS</div>
-          <div className="left-menu-items">SOLUTIONS</div>
-          <div className="left-menu-items">TECHNOLOGY</div>
-          <div className="left-menu-items">WHO WE ARE</div>
-          <div className="left-menu-items">CONTACT</div>
+       <a href="#"> <div className="left-menu-items">SOLUTIONS</div> </a>
+       <a href="#">  <div className="left-menu-items">CUSTOMERS</div></a>
+       <a href="#">  <div className="left-menu-items">ABOUT US</div></a>
+          
+       <a href="#">  <div className="left-menu-items">CONTACT</div></a>
+      
           <div className="left-menu-items"><img src={LogoLeftMenu}  className="logo-left-menu"/></div>
         </div>
-      </div>
+      </div> */}
+      <div id="sidenav">
+      <CloseIcon onClick={closeSubMenu} className="close-icon" />
+  <a href="#about" className="left-menu-items">SOLUTIONS</a>
+  <a href="#services" className="left-menu-items">CUSTOMERS</a>
+  <a href="#clients" className="left-menu-items">ABOUT US</a>
+  <a href="#contact" className="left-menu-items">CONTACT</a>
+  <div className="left-menu-items"><img src={LogoLeftMenu}  className="logo-left-menu"/></div>
+</div>
+
     </div>
   );
 }
