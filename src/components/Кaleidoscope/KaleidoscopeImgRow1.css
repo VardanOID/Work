@@ -161,22 +161,24 @@ cursor: pointer;
   
   .news1{
    
-    background-image: url(https://lh3.googleusercontent.com/proxy/15viSbwqdRTtMUhkHihBJpFpU1g4jZxtf6hcbdrMrO4hd2unNkDqK1AyLP-Tx4PMCwbKIMeagj8p4NCtQOaDibEyHIveyQ);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAU4AAACXCAMAAABNy0IIAAAAA1BMVEX///+nxBvIAAAASElEQVR4nO3BMQEAAADCoPVP7W8GoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADOAMWZAAFyFUqwAAAAAElFTkSuQmCC);
   background-color: white;
+  /* transition: 0.5s; */
+  transition: all 0.5s ease-in-out;
   background-size: cover;
-  -webkit-transition: background-image 0.5s ease-in-out;
     margin-top:9%;
   color:black;
-  transition: 2s;
+cursor: pointer;
   }
   .news1:hover{
  
     background-image: url(https://i.pinimg.com/originals/11/b6/76/11b6769c8f2ea91b25fa0bb10bcaf4ab.jpg);
-      background-size: cover;
-  transition: 2s;
-  cursor: pointer;
-  -webkit-transition: background-image 0.5s ease-in-out;
+    background-size: cover;
   
+  /* transition: 0.5s; */
+  transition: all 0.5s ease-out;
+
+
   }
 
   

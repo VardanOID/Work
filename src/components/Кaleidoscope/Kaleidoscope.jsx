@@ -9,7 +9,8 @@ import "./kaleidoscope.css";
 
 function Kaleidoscope() {
   return (
-    <div className="kaleidoscope-box">
+    <div className="kaleidoscope-box" id="aboutUs">
+    <span ></span>
       <div className="kaleidoscope-title" data-aos="zoom-out">RedKite</div>
       <span className="kaleidoscope-koleidoscope" data-aos="zoom-in-up"> Kaleidoscope</span>
    <KaleidoscopeImgRow1 />

@@ -68,6 +68,7 @@ width: 150px;
 .logo-and-three-words{
     padding-top: 50px;
     display:flex;
+    z-index: 1;
 }
 .menu-container{
     position: fixed;

@@ -6,8 +6,8 @@ import Testimonials from "./Testimonials"
 
 function CustomerAndTestimonialsBox(){
     return(
-    <div className="customer-and-testimonials-box">
-    <span id="customers"></span>
+    <div className="customer-and-testimonials-box"  id="customers">
+
     <div className="customers-title">Customers</div>
 <div className="customers">Some of the amazing clients we've worked with</div>
 <CustomersLogo />
