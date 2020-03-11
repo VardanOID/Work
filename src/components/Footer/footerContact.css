@@ -1,0 +1,32 @@
+.footer-slogan1{
+  
+    font-size: 17px;
+text-align: left;
+}
+
+.footer-box{
+    padding: 0 20% 0px 50px;
+    /* border: 2px solid red; */
+}
+.footer-logos{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px dotted;
+}
+
+
+@media only screen and (max-width: 1705px) {
+    .footer-box{
+        padding: 0 5% 0px 50px;
+
+    }
+    
+.footer-logo{
+width: 35%;
+}
+.footer-partners{
+    width: 30%;
+}
+
+
+}

@@ -1,0 +1,25 @@
+.touch-title{
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif !important;
+  /* font-weight: bold; */
+  /* border-bottom: 1px dotted; */
+}
+
+.footer-contact-tel-box{
+border:2px solid red;
+}
+
+.footer-contact-tel{
+    display: flex;
+    width: 100%;
+    border:2px solid blue;
+}
+td{
+    /* border:2px solid red; */
+    width: 10%;
+   
+}
+tr{
+    /* border:2px solid blue; */
+    /* width: 100%; */
+}

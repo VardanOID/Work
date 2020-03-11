@@ -5,11 +5,13 @@ import FooterBottom from "./FooterBottom";
 import "./footer.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Grid from "@material-ui/core/Grid";
+import FooterConact from "./FooterContact";
+import FooterGetInTouch from "./FooterGetInTouch";
 
 function Footer() {
   return (
     <div className="footer" id="contact">
-    <span ></span>
+      <span></span>
       <div className="footer-icons-div ">
         <SocialIcon SocialIcons="fab fa-facebook-f" bgColor="#1877F2" />
         <SocialIcon SocialIcons="fab fa-instagram" bgColor="#C13584" />
@@ -27,12 +29,14 @@ function Footer() {
       <div >
         <FooterBottom />
       </div> */}
-<Grid>
-  <Row>
-    <Col lg={6}>1</Col>
-    <Col lg={6}>2</Col>
-  </Row>
-</Grid>
+      <Grid>
+        <Row>
+          <Col lg={6}>
+            <FooterConact />
+          </Col>
+          <Col lg={6}><FooterGetInTouch/></Col>
+        </Row>
+      </Grid>
     </div>
   );
 }
