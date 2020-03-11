@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Work/static/css/main.ac028c06.chunk.css",
-    "main.js": "/Work/static/js/main.c0ff81b0.chunk.js",
-    "main.js.map": "/Work/static/js/main.c0ff81b0.chunk.js.map",
+    "main.css": "/Work/static/css/main.efb3fe42.chunk.css",
+    "main.js": "/Work/static/js/main.b0a350b2.chunk.js",
+    "main.js.map": "/Work/static/js/main.b0a350b2.chunk.js.map",
     "runtime-main.js": "/Work/static/js/runtime-main.c00b0a62.js",
     "runtime-main.js.map": "/Work/static/js/runtime-main.c00b0a62.js.map",
     "static/css/2.ba9190fa.chunk.css": "/Work/static/css/2.ba9190fa.chunk.css",
-    "static/js/2.6035d04d.chunk.js": "/Work/static/js/2.6035d04d.chunk.js",
-    "static/js/2.6035d04d.chunk.js.map": "/Work/static/js/2.6035d04d.chunk.js.map",
+    "static/js/2.d9f15417.chunk.js": "/Work/static/js/2.d9f15417.chunk.js",
+    "static/js/2.d9f15417.chunk.js.map": "/Work/static/js/2.d9f15417.chunk.js.map",
     "index.html": "/Work/index.html",
-    "precache-manifest.e7caa9bbbff02fd1ba54e3273b1bc512.js": "/Work/precache-manifest.e7caa9bbbff02fd1ba54e3273b1bc512.js",
+    "precache-manifest.5ba433e5deb4f86c2bbb05ed364c87c0.js": "/Work/precache-manifest.5ba433e5deb4f86c2bbb05ed364c87c0.js",
     "service-worker.js": "/Work/service-worker.js",
     "static/css/2.ba9190fa.chunk.css.map": "/Work/static/css/2.ba9190fa.chunk.css.map",
-    "static/css/main.ac028c06.chunk.css.map": "/Work/static/css/main.ac028c06.chunk.css.map",
-    "static/js/2.6035d04d.chunk.js.LICENSE.txt": "/Work/static/js/2.6035d04d.chunk.js.LICENSE.txt",
+    "static/css/main.efb3fe42.chunk.css.map": "/Work/static/css/main.efb3fe42.chunk.css.map",
+    "static/js/2.d9f15417.chunk.js.LICENSE.txt": "/Work/static/js/2.d9f15417.chunk.js.LICENSE.txt",
     "static/media/color.jpg": "/Work/static/media/color.7e901515.jpg",
     "static/media/logo.png": "/Work/static/media/logo.60a22c72.png",
     "static/media/logo2.png": "/Work/static/media/logo2.8554fcf9.png",
+    "static/media/logo_new.png": "/Work/static/media/logo_new.b3974408.png",
     "static/media/magento.png": "/Work/static/media/magento.98dc4891.png",
     "static/media/meeting.jpg": "/Work/static/media/meeting.c7defa6c.jpg",
     "static/media/s.jpg": "/Work/static/media/s.4666adf4.jpg",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.c00b0a62.js",
     "static/css/2.ba9190fa.chunk.css",
-    "static/js/2.6035d04d.chunk.js",
-    "static/css/main.ac028c06.chunk.css",
-    "static/js/main.c0ff81b0.chunk.js"
+    "static/js/2.d9f15417.chunk.js",
+    "static/css/main.efb3fe42.chunk.css",
+    "static/js/main.b0a350b2.chunk.js"
   ]
 }
