@@ -14,7 +14,7 @@ function Buttons() {
       <span></span><span></span><span></span><span></span>
     </li>
     <li  data-aos="zoom-in">
-    WHAT WE SERVE
+    WHO WE SERVE
       <span></span><span></span><span></span><span></span>
     </li>
     </ul>
