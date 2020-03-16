@@ -1,0 +1,34 @@
+.sitem-box-container{
+    /* border:2px solid blue; */
+    margin: -40px 20% 0px;
+    width: 70vh;
+    height: 35vh;
+    box-shadow: 0 0 45px rgba(0,0,0,.35);
+background-color: white;
+
+}
+.sitem-title{
+    font-size: 3em;
+  
+    font-weight: bolder;
+    font-family: sf_ui_displayblack,Helvetica,Arial,sans-serif;
+    line-height: 35px;
+    text-align: center;
+    padding-top:15%;
+  /* padding: 15% 5% 0 10% ; */
+}
+.sitem-buttons{
+    /* display: flex; */
+}
+
+@media only screen and (max-width: 1705px) {
+    .sitem-box-container{
+
+        margin: -40px 0% 0px;
+        width: 100vh;
+        height: 50vh;
+       
+      
+    }
+      
+    }

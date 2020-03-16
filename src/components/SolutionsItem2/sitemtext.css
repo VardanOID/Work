@@ -1,0 +1,15 @@
+.sitem-description{
+    margin: 50px;
+    color: #474747;
+    font-family: sf_ui_textregular,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    height: 100%;
+    letter-spacing: -.35px;
+    line-height: 24px;
+}
+
+@media only screen and (max-width: 1705px){
+    .sitem-description{
+        margin: 25px;
+    }
+}

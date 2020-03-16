@@ -23,3 +23,10 @@ opacity: 0.8;
 background: rgb(13,249,20);
 background: radial-gradient(circle, rgba(13,249,20,0.4990371148459384) 0%, rgba(247,128,0,0.16850490196078427) 73%);
 }
+#mute{
+    border:2px solid red;
+    position: absolute;
+    z-index: 11000;
+    color:red;
+    
+}

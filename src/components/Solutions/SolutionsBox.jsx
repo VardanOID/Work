@@ -9,6 +9,7 @@ import {
   Switch as RouterSwitch
 } from "react-router-dom";
 import SItem from "../SolutionsItem/SItem";
+import SItem1 from "../SolutionsItem2/SItem";
 
 function SolutionsBox() {
   return (
@@ -22,11 +23,15 @@ function SolutionsBox() {
           {" "}
           <SolutionsSectionsPic />
         </Link>
-        <Route exact path="/ecommerce" component={SItem} />
+        <Route path="/ecommerce" component={SItem} />
+        <Link to="/webstudio">
+          <SolutionsSectionsPic1 />
+        </Link>
+        <Route path="/webstudio" component={SItem1} />
       </Router>
 
       {/* sd */}
-      <SolutionsSectionsPic1 />
+      {/* <SolutionsSectionsPic1 /> */}
       {/* sd */}
       <SolutionsSectionsPic />
     </div>
