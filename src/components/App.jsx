@@ -10,15 +10,15 @@ import Footer from "../components/Footer/Footer";
 import Magento from "../components/Magento/Magento";
 // import { Route, Router } from "react-router";
 // import {Link} from "react-router-dom"
-import { BrowserRouter as Router, Route, Link, Switch as RouterSwitch } from "react-router-dom";
-import SItem from "../components/SolutionsItem/SItem"
+
+
 import "./app.css";
 
 
 function App() {
   return (
     
-      <Router>
+      
       <div className="all-page">
       <span id="top"></span>
       <Header />
@@ -31,8 +31,7 @@ function App() {
       <Kaleidoscope />
       <Footer />
     </div>
-  <Route exact path="/ecommerce" component={SItem} target="_blank"/>
-</Router>
+ 
 
       
   );
